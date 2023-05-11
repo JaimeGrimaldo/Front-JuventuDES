@@ -1,0 +1,7 @@
+{
+  "name": "JuventuDES",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
