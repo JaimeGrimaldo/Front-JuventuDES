@@ -25,3 +25,187 @@
 #container a {
   text-decoration: none;
 }
+
+#logoPrincipal {
+  width: 206px;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23px;
+}
+
+#texto1 {
+  width: 115px;
+  height: 14px;
+  margin-left: 16px;
+  margin-top: 30px;
+  
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+#texto2 {
+  width: 222px;
+  height: 19px;
+  margin-left: 16px;
+  margin-top: -6px;
+  
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+#textoCorreo {
+  width: 46px;
+  height: 18px;
+  margin-left: 16px;
+  margin-top: 30px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;  
+  color: #FFFFFF;
+}
+
+#inputEmail {
+  box-sizing: border-box;
+  width: 90%;
+  height: 39px;
+  margin-left: 16px;
+  top: 239px;
+  
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #212425;
+  padding: 10px;
+}
+#inputPass {
+  box-sizing: border-box;
+  width: 90%;
+  height: 39px;
+  margin-left: 16px;
+  top: 239px;
+  
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #212425;
+  padding: 10px;
+}
+
+#textoPass {
+  width: 78px;
+  height: 18px;
+  margin-left: 16px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;  
+  color: #FFFFFF;
+}
+
+#recuperar {
+  width: 200px;
+  height: 28px;
+  margin-left: 16px;
+  margin-top: 20px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+}
+
+button {
+  width: 90%;
+  height: 45px;
+  margin-left: 16px;
+  text-align: center;
+  background: #BD2683;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.1614px;
+  line-height: 24px;
+}
+
+ion-content{
+  --ion-background-color: #212425;
+}
+
+#sugerirCuenta {
+  width: 223px;
+  height: 16px;
+  margin-left: 16px;
+  margin-top: 30px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+#registrarse {
+  color: #DF60AE;
+  margin-left: 5px;
+}
+
+#redes {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#twitter{
+  padding: 10px;
+}
+#fb{
+  padding: 10px;
+}
+#instagram{
+  padding: 10px;
+}
+
+#derechos {
+  margin-left: 10.77%;
+  right: 10.77%;
+  top: 79.62%;
+  bottom: 19.43%;
+  
+  font-family: 'Gotham';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 8px;
+  
+  display: flex;
+  align-items: center;
+  
+  color: #F0F0F0;
+}
