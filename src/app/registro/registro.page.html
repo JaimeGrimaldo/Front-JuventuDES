@@ -6,21 +6,19 @@
     <ion-img src="../assets/Logo1.png" id="logoPrincipal"></ion-img>
 
     <div>
-      <h2 id="texto1">Inicio de sesión</h2>
-      <h1 id="texto2">Accede con tu cuenta</h1>
+      <h2 id="texto1">Registro de cuenta</h2>
+      <h1 id="texto2">Registrate para los beneficios</h1>
   
       <form action="">
-        <h1 id="textoCorreo">Correo</h1>
-        <!-- <ion-input type="email" id="inputEmail"></ion-input> -->
-        <input type="email" id="inputEmail">
-        <h1 id="textoPass">Contraseña</h1>
-        <input type="password" id="inputPass">
-        <a href="">
-          <h1 id="recuperar">¿Olvidaste tu contraseña?</h1>
-        </a>
-        <button >Acceder</button>
+        <h1 id="textoCURP">Ingresa tu CURP</h1>
+        <input type="text" id="inputCURP">
+        <div id="botonContador">
+          <h2 id="contadorPasos">1/5</h2>
+          <button [routerLink] = "['/registro2']">Siguiente</button>
+        </div>
 
-        <h1 id="sugerirCuenta">¿No tienes cuenta? <a href="" id="registrarse" [routerLink] = "['/registro']"> ¡Registrate acá!</a></h1>
+
+        <h1 id="sugerirCuenta">¿Ya tienes cuenta? <a href="" id="registrarse" [routerLink] = "['/home']">Inicia sesión</a></h1>
         <div id="redes">
           <ion-icon name="logo-twitter" size="large" id="twitter"></ion-icon>
           <ion-icon name="logo-facebook" size="large" id="fb"></ion-icon>
