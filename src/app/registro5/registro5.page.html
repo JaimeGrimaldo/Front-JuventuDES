@@ -8,18 +8,19 @@
     <div>
       <ion-icon name="arrow-back-circle-outline" id="retroceder"></ion-icon>
       <h2 id="texto1">Registro de cuenta</h2>
-      <h1 id="texto2">Ingresa tus datos de usuario</h1>
+      <h1 id="texto2">Para finalizar</h1>
   
       <form action="">
-        <h1 id="textoEmail">Correo</h1>
-        <input type="email" id="inputEmail">
-        <h1 id="textoPassNew">Nueva contraseña</h1>
-        <input type="password" class="inputPassNew" id="pass1">
-        <h1 id="textoPassNew">Confirma la contraseña</h1>
-        <input type="password" class="inputPassNew" id="pass2">
+        <h1 id="textoNombre">Seleccionar categoria</h1>
+        <div id="contenedor-select">
+          <select name="categorias" id="elselect" >
+            <option value="valor 1" class="opcion">valor 1</option>
+            <option value="valor 2" class="opcion">valor 2</option>
+          </select>
+        </div>
         <div id="botonContador">
-          <h2 id="contadorPasos">2/5</h2>
-          <button [routerLink] = "['/registro3']">Siguiente</button>
+          <h2 id="contadorPasos">5/5</h2>
+          <button [routerLink] = "['/registro5']">Registrar</button>
         </div>
 
 

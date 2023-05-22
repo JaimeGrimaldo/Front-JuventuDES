@@ -54,7 +54,7 @@
     height: 19px;
     margin-left: 16px;
     margin-top: -6px;
-
+    margin-bottom: -30px;
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 700;
@@ -81,17 +81,16 @@
 #textoPassNew {
     margin-top: 20px;
 }
-#inputCURP,#inputPassNew {
+#inputEmail,.inputPassNew {
     box-sizing: border-box;
     width: 90%;
     height: 39px;
     margin-left: 16px;
-    top: 239px;
-
     border: 1px solid #FFFFFF;
     border-radius: 5px;
     background-color: #212425;
     padding: 10px;
+    
 }
 
 #recuperar {
@@ -196,4 +195,12 @@ ion-content {
 
 #botonContador {
     margin-top: 30px;
+}
+
+
+#retroceder {
+    width: 21px;
+    height: 23px;
+    margin-left: 16px;
+    margin-bottom: -30px;
 }

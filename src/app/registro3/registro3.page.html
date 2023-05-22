@@ -8,18 +8,28 @@
     <div>
       <ion-icon name="arrow-back-circle-outline" id="retroceder"></ion-icon>
       <h2 id="texto1">Registro de cuenta</h2>
-      <h1 id="texto2">Ingresa tus datos de usuario</h1>
+      <h1 id="texto2">Ingresa algunos datos personales</h1>
   
       <form action="">
-        <h1 id="textoEmail">Correo</h1>
-        <input type="email" id="inputEmail">
-        <h1 id="textoPassNew">Nueva contraseña</h1>
-        <input type="password" class="inputPassNew" id="pass1">
-        <h1 id="textoPassNew">Confirma la contraseña</h1>
-        <input type="password" class="inputPassNew" id="pass2">
+        <h1 id="textoNombre">Nombre</h1>
+        <input type="text" id="inputNombre">
+        <h1 id="textoApellidos">Apellido Paterno</h1>
+        <input type="text" class="inputApellido" id="AP">
+        <h1 id="textoApellidos">Apellido Materno</h1>
+        <input type="text" class="inputApellido" id="AM">
+        <h1 id="textoApellidos">Selecciona tu genero</h1>
+        <ion-list>
+          <ion-item>
+            <ion-select aria-label="sexo" placeholder="Seleccionar">
+              <ion-select-option value="apples">Masculino</ion-select-option>
+              <ion-select-option value="oranges">Femenino</ion-select-option>
+              <ion-select-option value="bananas">No especificar</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
         <div id="botonContador">
-          <h2 id="contadorPasos">2/5</h2>
-          <button [routerLink] = "['/registro3']">Siguiente</button>
+          <h2 id="contadorPasos">3/5</h2>
+          <button [routerLink] = "['/registro4']">Siguiente</button>
         </div>
 
 
