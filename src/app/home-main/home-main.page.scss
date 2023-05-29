@@ -1,0 +1,205 @@
+.poligonos {
+    width: 60%;
+    height: 520.05px;
+    float: right;
+}
+
+ion-content{
+    --ion-background-color: #212425;
+}
+
+.header {
+    background-image: url("Poligonos_home.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.logoPrincipal {
+    width: 103px;
+    height: 32px;
+    margin-left: 16px;
+    margin-top: 4px;
+}
+
+.texto-grande {
+    width: 169px;
+    height: 38px;
+    margin-left: 16px;
+    margin-top: 16px;
+    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+
+}
+
+.texto-mediano {
+    width: 169px;
+    height: 20px;
+    margin-left: 16px;
+    margin-top: 5px;
+    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.boton-comenzar {
+    width: 75px;
+    height: 20px;
+    margin-left: 16px;
+    top: 121px;
+    
+    background: #BD2683;
+    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 120%;
+    /* identical to box height, or 10px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.boton-2{
+    width: 200px;
+    height: 10px;
+    margin-left: 10px;
+    top: 126px;
+    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+
+.botones-vacios, .botones-vacios2 {
+    box-sizing: border-box;
+    width: 52px;
+    height: 18px;
+    margin-left: 16px;
+    margin-top: 25px;
+    
+    border: 0.5px solid #FFFFFF;
+    border-radius: 1px;
+
+    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 120%;
+    /* identical to box height, or 10px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    background-color: #212425;
+}
+
+.botones-vacios2{
+    margin-left: 5px;
+    width: 60px;
+}
+
+.body{
+    background-color: white;
+    color: black;
+}
+
+.titulo {
+    width: 100%;
+    padding-top: 15px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 120%;
+    /* identical to box height, or 10px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #5C5C5C;
+}
+
+.titulares-1, .titulares-2, .titulares-3 {
+    margin-left: 16px;
+    margin-top: 10px;
+    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+.rectangulo-decorativo{
+    width: 30px;
+    height: 0px;
+    margin-left: 16px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    border: 3px solid #2CA3DC;
+}
+
+.contenido-1{
+    width: 169px;
+    height: 50px;
+    margin-left: 16px;
+    margin-top: 10px;
+    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 120%;
+    
+    text-align: justify;
+    letter-spacing: 0.02em;
+    
+    color: #555555;
+}
+
+.imagen-lateral {
+    width: 139px;
+    height: 116px;
+    float: right;
+    margin-top: -250px;
+}
