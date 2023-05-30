@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true">
+  <div class="div-header">
+    <button class="botones-superiores" [routerLink] = "['/home-main']">Inicio</button>
+    <button class="botones-superiores">Negocios</button>
+    <h1 class="titulo-principal">Contáctanos</h1>
+    <div class="barra-decorativa"></div>
+
+    <h2 class="titulo-campo">Nombre</h2>
+    <input type="text" class="entrada" id="entrada_nombre">
+    <h2 class="titulo-campo">Correo electrónico</h2>
+    <input type="email" class="entrada" id="entrada_email">
+    <h2 class="titulo-campo">Teléfono</h2>
+    <input type="tel" class="entrada" id="entrada_telefono">
+    <h2 class="titulo-campo">Mensaje</h2>
+    <!-- <input type="text" class="entrada" id="entrada_mensaje" placeholder="¿Que nos quieres comentar?"> -->
+    <textarea name="mensaje" id="entrada_mensaje" cols="30" rows="10" class="entrada"></textarea>
+    <button class="boton-enviar">Enviar</button>
+  </div>
+
+</ion-content>

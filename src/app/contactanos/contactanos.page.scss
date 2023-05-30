@@ -1,0 +1,117 @@
+ion-content{
+    --ion-background-color: white;
+}
+
+.div-header {
+    background-image: url("Poligonos_contactanos.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.botones-superiores {
+    box-sizing: border-box;
+
+    width: 73px;
+    height: 21px;
+    margin-left: 16px;
+    margin-top: 9px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #555555;
+    border-radius: 2px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+.titulo-principal {
+    margin-left: 16px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+.barra-decorativa {
+    margin-left: 16px;
+    width: 50px;
+    margin-top: -5px;
+    border: 4px solid #2CA3DC;
+}
+
+.titulo-campo {
+    margin-left: 16px;
+    padding-top: 20px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+.entrada {
+    box-sizing: border-box;
+
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: -30px;
+    width: 90%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 2px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #555555;
+    padding: 5px;
+}
+
+#entrada_mensaje {
+    height: 200px;
+    text-align: start;
+}
+
+.boton-enviar {
+    width: 90%;
+    height: 59px;
+    margin-left: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+    background: #BD2683;
+
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
