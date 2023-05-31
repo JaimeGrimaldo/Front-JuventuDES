@@ -27,7 +27,7 @@ ion-content{
     margin-left: 16px;
     margin-top: 16px;
     
-    font-family: 'Gotham';
+    font-family: 'Gotham','Roboto',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -54,6 +54,7 @@ ion-content{
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 .boton-comenzar {
@@ -69,11 +70,11 @@ ion-content{
     font-weight: 700;
     font-size: 8px;
     line-height: 120%;
-    /* identical to box height, or 10px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 .boton-2{
@@ -139,6 +140,7 @@ ion-content{
     
     color: #000000;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .subtitulo {
@@ -147,13 +149,14 @@ ion-content{
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 700;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 120%;
     /* identical to box height, or 10px */
     
     letter-spacing: 0.02em;
     
     color: #5C5C5C;
+    font-family: 'Roboto', sans-serif;
 }
 
 .titulares-1, .titulares-2, .titulares-3 {
@@ -169,6 +172,7 @@ ion-content{
     letter-spacing: 0.02em;
     
     color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 .rectangulo-decorativo{
     width: 30px;
@@ -195,6 +199,7 @@ ion-content{
     letter-spacing: 0.02em;
     
     color: #555555;
+    font-family: 'Roboto', sans-serif;
 }
 
 .imagen-lateral {

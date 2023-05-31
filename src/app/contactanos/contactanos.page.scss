@@ -36,13 +36,14 @@ ion-content{
 
     font-family: 'Gotham';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 24px;
     line-height: 120%;
 
     letter-spacing: 0.02em;
     
     color: #000000;
+    font-family: 'Poppins', sans-serif;
 }
 
 .barra-decorativa {
@@ -64,6 +65,7 @@ ion-content{
     letter-spacing: 0.02em;
     
     color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 
 .entrada {
@@ -72,22 +74,22 @@ ion-content{
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: -30px;
-    width: 90%;
+    width: 92%;
     height: 40px;
     background: #FFFFFF;
     border: 1px solid #555555;
     border-radius: 2px;
 
-    font-family: 'Gotham';
-    font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 120%;
     
     letter-spacing: 0.02em;
     
     color: #555555;
+    color: #000000;
     padding: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #entrada_mensaje {
@@ -96,7 +98,7 @@ ion-content{
 }
 
 .boton-enviar {
-    width: 90%;
+    width: 92%;
     height: 59px;
     margin-left: 16px;
     margin-top: 40px;
@@ -114,4 +116,5 @@ ion-content{
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
