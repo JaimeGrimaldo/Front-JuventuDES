@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="div-header">
+    <button class="botones-header" [routerLink] = "['/home-main']">Inicio</button>
+    <button class="botones-header" id="boton-contactanos" [routerLink] = "['/contactanos']">Contáctanos</button>
+    <button class="botones-header"id="boton-iniciar" >Iniciar sesión</button>
+  </div>
+  <br>
+  <ion-img src="../assets/Logo2.png" id="logoPrincipal"></ion-img>
+  <h1 class="titulo">negocios participantes</h1>
+
+  <br>
+  <div class="card-general">
+    <div class="card-icono">
+      <img src="../assets/Bus.png" alt="Icono de autobus">
+    </div>
+    <div class="card-contenido">
+      <h2 class="titulo-servicio">Transporte</h2>
+      <div class="barra-decorativa" id="b1"></div>
+      <p class="descripcion">Taxis, transporte publico, alquiler de transporte y mas.</p>
+    </div>
+  </div>
+  <br>
+  <div class="card-general">
+    <div class="card-icono" id="card2">
+      <img src="../assets/Lapiz.png" alt="Icono de autobus">
+    </div>
+    <div class="card-contenido">
+      <h2 class="titulo-servicio">Papeleria</h2>
+      <div class="barra-decorativa" id="b2"></div>
+      <p class="descripcion">Taxis, transporte publico, alquiler de transporte y mas.</p>
+    </div>
+  </div>
+  <br>
+  <div class="card-general">
+    <div class="card-icono" id="card3">
+      <img src="../assets/Comida.png" alt="Icono de autobus">
+    </div>
+    <div class="card-contenido">
+      <h2 class="titulo-servicio">Alimentos</h2>
+      <div class="barra-decorativa" id="b3"></div>
+      <p class="descripcion">Taxis, transporte publico, alquiler de transporte y mas.</p>
+    </div>
+  </div>
+  <br>
+  <div class="card-general">
+    <div class="card-icono" id="card4">
+      <img src="../assets/Dormir.png" alt="Icono de autobus">
+    </div>
+    <div class="card-contenido">
+      <h2 class="titulo-servicio">Hospedaje</h2>
+      <div class="barra-decorativa" id="b4"></div>
+      <p class="descripcion">Taxis, transporte publico, alquiler de transporte y mas.</p>
+    </div>
+  </div>
+
+</ion-content>

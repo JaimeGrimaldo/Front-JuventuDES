@@ -1,0 +1,126 @@
+ion-content {
+    --ion-background-color: white;
+}
+
+.div-header {
+    background-color: white;
+}
+
+.botones-header {
+    width: 73px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-left: 4.1%;
+    right: 77.18%;
+    margin-top: 1.42%;
+    bottom: 96.09%;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #555555;
+    border-radius: 2px;
+    color: black;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 14px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+#boton-contactanos{
+    width: 85px;
+}
+
+#boton-iniciar {
+    width: 100px;
+    margin-left: 70px;
+    background-color: #2CA3DC;
+    color: white;
+    border: 0.5px solid #2CA3DC;
+}
+
+ion-img {
+    width: 166px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+
+.titulo {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000000;
+}
+
+.card-general {
+    background-color: white;
+    display: flex;
+    width: 92%;
+    height: 89px;
+    margin-left: 16px;
+    top: 177px;
+    -webkit-box-shadow: 0px -1px 64px -33px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px -1px 64px -33px rgba(0,0,0,0.36);
+    box-shadow: 0px -1px 64px -33px rgba(0,0,0,1);
+    border-radius: 5px;
+}
+
+.card-icono {
+    background-color: #D73A9B;
+    border-radius: 5px 0px 0px 5px;
+    width: 100px;
+}
+
+.titulo-servicio {
+    font-size: 1.2rem;
+    margin-left: 16px;
+    margin-top: 2px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: .8rem;
+    text-align: justify;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #000000;
+}
+
+.barra-decorativa {
+    width: 50px;
+    height: 4px;
+    margin-left: 16px;
+    
+    background: #D73A9B;
+    border-radius: 8px;
+}
+
+#card2 {
+    background-color: #FCBB16;
+}
+
+#b2 {
+    background-color: #FCBB16;
+}
+#card3 {
+    background-color: #70FA86;
+}
+
+#b3 {
+    background-color: #70FA86;
+}
+#card4 {
+    background-color: #C27D6E;
+}
+
+#b4 {
+    background-color: #C27D6E;
+}
