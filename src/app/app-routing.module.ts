@@ -42,6 +42,10 @@ const routes: Routes = [
     path: 'negocios',
     loadChildren: () => import('./negocios/negocios.module').then( m => m.NegociosPageModule)
   },
+  {
+    path: 'home-user',
+    loadChildren: () => import('./home-user/home-user.module').then( m => m.HomeUserPageModule)
+  },
 
 ];
 

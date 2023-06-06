@@ -1,0 +1,114 @@
+ion-content{
+    --ion-background-color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.body {
+    
+}
+
+.logo {
+    margin-top: 1px;
+    width: 143px;
+    height: 44.18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.icon-next {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    margin-top: -10px;
+}
+
+h1 {
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+ion-card {
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    background-color: white;
+    width: 90%;
+    margin-left: 16px;
+}
+
+ion-card-header {
+    margin-left: 16px;
+}
+
+ion-card-content {
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: justify;
+}
+
+p {
+    display: inline;
+}
+
+#nombre_usuario {
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8rem;
+    color: #666666;
+}
+
+h3 {
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+#boton-editar {
+    width: 74px;
+    height: 18px;
+    background-color: #2CA3DC;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    margin-left: 4.5rem;
+
+}
+
+.contenedorfinal {
+    display: inline-block;
+}
+
+.pf2 {
+    width: 100%;
+    padding: 16px;
+}
+
+.boton-juventudes {
+    width: 100%;
+    background-color: #2CA3DC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 14px;
+    height: 30px;
+    color: white;
+    border-radius: 2px;
+}
+
