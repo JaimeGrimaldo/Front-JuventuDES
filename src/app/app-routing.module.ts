@@ -46,6 +46,14 @@ const routes: Routes = [
     path: 'home-user',
     loadChildren: () => import('./home-user/home-user.module').then( m => m.HomeUserPageModule)
   },
+  {
+    path: 'form-datos-personales1',
+    loadChildren: () => import('./form-datos-personales1/form-datos-personales1.module').then( m => m.FormDatosPersonales1PageModule)
+  },
+  {
+    path: 'negocios-ubicaciones',
+    loadChildren: () => import('./negocios-ubicaciones/negocios-ubicaciones.module').then( m => m.NegociosUbicacionesPageModule)
+  },
 
 ];
 
