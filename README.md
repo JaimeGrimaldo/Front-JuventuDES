@@ -1,5 +1,5 @@
 # Front de App Moviles JuventuDES
-![Logo de la app](src\assets\Logo1.png)
+![Logo de la app](https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/ionic-icon.png)
 
 En este repositorio se esta almacenando el codigo del Front de la app JuventuDES
 
