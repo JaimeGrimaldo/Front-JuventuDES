@@ -84,9 +84,11 @@
 
 #inputEmail {
   box-sizing: border-box;
-  width: 90%;
   height: 39px;
-  margin-left: 16px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   top: 239px;
   
   border: 1px solid #FFFFFF;
@@ -96,9 +98,11 @@
 }
 #inputPass {
   box-sizing: border-box;
-  width: 90%;
   height: 39px;
-  margin-left: 16px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   top: 239px;
   
   border: 1px solid #FFFFFF;
@@ -140,10 +144,10 @@ a{
 
 button {
   width: 90%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   height: 45px;
-  margin-left: 16px;
-  margin-right: 16px;
-
   background: #BD2683;
   font-family: 'Roboto';
   font-style: normal;
@@ -205,4 +209,8 @@ ion-content{
   line-height: 8px;
   
   color: #F0F0F0;
+}
+
+.centrar-campos {
+  width: 100%;
 }

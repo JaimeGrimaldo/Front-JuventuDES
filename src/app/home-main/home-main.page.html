@@ -10,14 +10,14 @@
 
     <h1 class="texto-grande">Consigue tu tarjeta de descuentos</h1>
     <h2 class="texto-mediano">Conoce los descuentos a los cuales puedes acceder</h2>
-    <button class="boton-comenzar" [routerLink] = "['/home-user']">Comenzar</button>
+    <button class="boton-comenzar" [routerLink]="['/home-user']">Comenzar</button>
     <a href="" class="boton-2">Conocer más</a>
     <br>
-    <button class="botones-vacios" [routerLink] = "['/negocios']">Negocios</button>
-    <button class="botones-vacios2" [routerLink] = "['/contactanos']">Contactanos</button>
+    <button class="botones-vacios" [routerLink]="['/negocios']">Negocios</button>
+    <button class="botones-vacios2" [routerLink]="['/contactanos']">Contactanos</button>
   </div>
   <div class="body">
-    
+
     <h1 class="titulo">TARJETA JUVENTUDES</h1>
     <h2 class="subtitulo">Conoce más de la tarjeta JuventuDES y accede a sus beneficios</h2>
     <h3 class="titulares-1">¿QUE ES?</h3>
@@ -33,5 +33,44 @@
     <p class="contenido-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae est malesuada,
       eleifend felis at, pharetra libero. Maecenas vel ligula eu ligula scelerisque iaculis.</p>
     <img src="../assets/tarjeta.png" alt="Imagen de tarjeta de credito" class="imagen-lateral">
+
+    <h1 class="titulo">NEGOCIOS PARTICIPANTES</h1>
+    <div class="cards-negocios">
+      <div class="card">
+        <img src="https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2022/08/11091250/starbucksmenu.jpg" alt="Imagen de negocio participante" class="imagen-card">
+        <h2 class="nombre-negocio" id="nombre_negocio">Starbucks</h2>
+      </div>
+      <div class="card">
+        <img src="https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2022/08/11091250/starbucksmenu.jpg" alt="Imagen de negocio participante" class="imagen-card">
+        <h2 class="nombre-negocio" id="nombre_negocio">Starbucks</h2>
+      </div>
+      <div class="card">
+        <img src="https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2022/08/11091250/starbucksmenu.jpg" alt="Imagen de negocio participante" class="imagen-card">
+        <h2 class="nombre-negocio" id="nombre_negocio">Starbucks</h2>
+      </div>
+      <div class="card">
+        <img src="https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2022/08/11091250/starbucksmenu.jpg" alt="Imagen de negocio participante" class="imagen-card">
+        <h2 class="nombre-negocio" id="nombre_negocio">Starbucks</h2>
+      </div>
+      <div class="card">
+        <img src="https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2022/08/11091250/starbucksmenu.jpg" alt="Imagen de negocio participante" class="imagen-card">
+        <h2 class="nombre-negocio" id="nombre_negocio">Starbucks</h2>
+      </div>
+      <div class="card">
+        <img src="https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2022/08/11091250/starbucksmenu.jpg" alt="Imagen de negocio participante" class="imagen-card">
+        <h2 class="nombre-negocio" id="nombre_negocio">Starbucks</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <br>
+    <div id="redes">
+      <ion-icon name="logo-twitter" size="large" id="twitter"></ion-icon>
+      <ion-icon name="logo-facebook" size="large" id="fb"></ion-icon>
+      <ion-icon name="logo-instagram" size="large" id="instagram"></ion-icon>
+      <h1 id="derechos">© Tarjeta JuventuDES - Instituto de la Juventud del estado de Chiapas</h1>
+      <br>
+    </div>
   </div>
 </ion-content>
