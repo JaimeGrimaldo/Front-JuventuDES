@@ -7,8 +7,48 @@
 <ion-content [fullscreen]="true">
   <img src="../assets/HeaderUser.png" alt="Poligonos de cabecera" srcset="">
   <section class="body">
-    <img src="../assets/Logo2.png" alt="Logo de juventudes" class="logo">
-    <img src="../assets/icon_next.png" alt="Icono next" class="icon-next">
+    <img src="../assets/Logo2.png" alt="Logo de juventudes" class="logo" [routerLink] = "['/home-main']">
+    <br>
+
+<!--     <img src="../assets/icon_next.png" alt="Icono next" class="icon-next" for="activador">
+    <input type="checkbox" id="activador"> -->
+
+    <div class="menu-lateral-contenedor">
+      <div class="elementos-menu">
+        <nav>
+          <div class="elemento">
+            <div class="contenedor-imagen-menu">
+              <img src="../assets/Home-icon.png" alt="home">
+            </div>
+            <h1 class="texto-opcion"> <a href="#">Inicio</a></h1>
+          </div>
+          <div class="elemento">
+            <div class="contenedor-imagen-menu">
+              <img src="../assets/icon-ambar.png" alt="Plaza ambar">
+            </div>
+            <h1 class="texto-opcion"> <a href="#">Ámbar</a></h1>
+          </div>
+          <div class="elemento" [routerLink] = "['/negocios']">
+            <div class="contenedor-imagen-menu">
+              <img src="../assets/icon-negocios.png" alt="Negocios">
+            </div>
+            <h1 class="texto-opcion"> <a href="#">Negocios</a></h1>
+          </div>
+          <div class="elemento">
+            <div class="contenedor-imagen-menu">
+              <img src="../assets/icon-logout.png" alt="Cerrar sesion">
+            </div>
+            <h1 class="texto-opcion"> <a href="#">Cerrar sesión</a></h1>
+          </div>
+        </nav>
+      </div>
+      <div class="informacion-descuentos">
+        <h2 class="bien">Bienvenido</h2>
+        <h2 class="usuario-texto" id="nombre_usuario2">Jaime Grimaldo</h2>
+        <h2 class="puntos" id="descuentos_disponibles">54</h2>
+        <h2 class="descuentos-disponibles">Descuentos disponibles</h2>
+      </div>
+    </div>
 
     <h1>Descuentos disponibles</h1>
     <div class="contenedor-de-cards">
@@ -54,7 +94,7 @@
     <div class="partefinal">
       <h1>Tarjeta JuventuDES</h1>
       <div class="pf2">
-        <button class="boton-juventudes">Mostrar código QR</button>
+        <button class="boton-juventudes" [routerLink] = "['/mostrar-qr']">Mostrar código QR</button>
       </div>
     </div>
   </section>

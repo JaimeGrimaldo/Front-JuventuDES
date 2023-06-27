@@ -54,6 +54,10 @@ const routes: Routes = [
     path: 'negocios-ubicaciones',
     loadChildren: () => import('./negocios-ubicaciones/negocios-ubicaciones.module').then( m => m.NegociosUbicacionesPageModule)
   },
+  {
+    path: 'mostrar-qr',
+    loadChildren: () => import('./mostrar-qr/mostrar-qr.module').then( m => m.MostrarQrPageModule)
+  },
 
 ];
 

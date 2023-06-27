@@ -109,3 +109,75 @@ h3 {
     border-radius: 2px;
 }
 
+
+.menu-lateral-contenedor {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    transition: all 400ms ease;
+
+}
+
+#activador:checked ~ .menu-lateral-contenedor {
+    opacity: 1;
+    visibility: visible;
+}
+.elemento {
+    width: auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+    height: 50px;
+    display: flex;
+}
+
+.contenedor-imagen-menu {
+    width: 35px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.texto-opcion {
+    font-size: 20px;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ADADAD;
+}
+
+a {
+    text-decoration: none;
+    color: #ADADAD;
+}
+
+.informacion-descuentos {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: auto;
+    padding-right: 15px;
+
+}
+
+.usuario-texto {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bien {
+    font-weight: 100;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.puntos {
+    font-weight: bold;
+}
+.descuentos-disponibles {
+    font-size: 10px;
+}
+
+/* truco */ 
+#activador {
+    display: none;
+}

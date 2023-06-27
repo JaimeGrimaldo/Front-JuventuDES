@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+  </style>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <section>
+    <img src="../assets/HeaderUser.png" alt="Poligonos de cabecera" srcset="" class="imagen-header">
+    <img src="../assets/Logo2.png" alt="Logo" class="imagen-logo" [routerLink] = "['/home-main']">
+    <img src="../assets/icon_next.png" alt="Retroceder" class="imagen-retroceder" [routerLink] = "['/home-user']">
+  </section>
+
+  <section>
+    <div class="contenedor-qr">
+      <div class="imagen-qr">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Commons_QR_code.png" alt="QR de usuario">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1 id="cantidad_descuentos">54</h1>
+    <h2 class="descuentosD">Descuentos disponibles</h2>
+    <button class="boton-informacion" [routerLink] = "['/form-datos-personales1']">Editar información</button>
+  </section>
+
+<!--   <div class="footer">
+    <br>
+    <div id="redes">
+      <ion-icon name="logo-twitter" size="large" id="twitter"></ion-icon>
+      <ion-icon name="logo-facebook" size="large" id="fb"></ion-icon>
+      <ion-icon name="logo-instagram" size="large" id="instagram"></ion-icon>
+      <h1 id="derechos">© Tarjeta JuventuDES - Instituto de la Juventud del estado de Chiapas</h1>
+      <br>
+    </div>
+  </div> -->
+</ion-content>
